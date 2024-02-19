@@ -1,0 +1,86 @@
+@media (max-width: 1198.98px) {
+    // Header 
+    .headerContent {
+        .imageBanner {
+            min-width: 400px;
+            max-width: 600px;
+            padding-top: 100px;
+        }
+
+        .infos {
+            h2 {
+                font-size: 1.6rem;
+                line-height: 1.6rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                line-height: 1.2rem;
+            }
+
+            img {
+                width: 100px;
+            }
+        }
+    }
+}
+
+@media (max-width: 749.98px) {
+    // Header 
+    .headerContent {
+        flex-wrap: wrap;
+        padding-top: 0;
+
+        .imageBanner {
+            padding-top: 0;
+        }
+    }
+
+    // Navbar
+    .navBar {
+
+        flex-direction: column;
+        height: auto;
+
+        .logos {
+            margin-bottom: 40px;
+            margin-top: 40px;
+            width: 100%;
+        }
+
+        .closeMenu {
+            display: none;
+        }
+
+        .ocMenu {
+            display: block;
+        }
+
+        ul {
+            flex-direction: column;
+            gap: 5px;
+            width: 100%;
+            align-items: center;
+            margin-bottom: 20px;
+
+            li {
+                padding-top: 5px;
+                padding-bottom: 5px;
+                background-color: #085e5d49;
+                width: 100%;
+                margin-bottom: 5px;
+                text-align: center;
+                border-radius: 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    // Header 
+    .headerContent {
+        .imageBanner {
+            min-width: 330px;
+        }
+    }
+}
