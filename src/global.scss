@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import "../src/css/variables";
 
 *, html, body {
   margin: 0;
@@ -10,6 +11,7 @@ body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
+  background-color: $colorGreen;
   
   h1 {
     font-size: 1.8rem;
@@ -26,6 +28,11 @@ body {
   p {
     font-size: 1.2rem;
   }
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
 }
 
 @import "../src/css/responsive";

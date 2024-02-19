@@ -25,7 +25,16 @@
     }
 }
 
-@media (max-width: 749.98px) {
+@media (max-width: 899.98px) {
+    // Header 
+    .headerContent {
+        .imageBanner {
+            min-width: 500px;
+        }
+    }
+}
+
+@media (max-width: 799.98px) {
     // Header 
     .headerContent {
         flex-wrap: wrap;

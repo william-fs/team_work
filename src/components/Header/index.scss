@@ -10,22 +10,22 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 70px;     
+    padding-top: 30px;     
 
     .infos {
-        max-width: 600px;
+        max-width: 500px;
         width: 100%;
-        padding: 0 30px;
         padding-bottom: 50px;
         
         img {
             margin-bottom: 15px;
+            width: 100px;
         }
         
         h2 {
             color: $colorWhite;
-            font-size: 2.5rem;
-            line-height: 2.5rem;
+            font-size: 1.8rem;
+            line-height: 1.8rem;
             margin-bottom: 20px;
             text-transform: uppercase;
             span {
@@ -37,9 +37,39 @@
         }
 
         p {
-            font-size: 1.5rem;
-            line-height: 1.5rem;
+            font-size: 1.3rem;
+            line-height: 1.3rem;
             color: $colorWhite;
+            margin-bottom: 20px;
+        }
+        
+    }
+
+    .btnBanner {
+        display: flex;
+        gap: 20px;
+
+        .btn {
+            padding: 10px 30px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            border-radius: 30px;
+            border: 5px solid;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all 0.3s;
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+
+        .btnMore {
+            color: $colorGreen;
+        }
+
+        .btnContact {
+            color: $colorGreen;
+            background-color: transparent;
         }
     }
 
@@ -49,6 +79,8 @@
         padding: 0 30px;
         img {
             width: 100%;
+            position: relative;
+            bottom: -6px;
         }
     }
 }
