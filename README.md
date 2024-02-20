@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 - Tecnologias usadas:
 -- React JS
 -- SASS
+-- Swiper Slider

@@ -9,7 +9,9 @@ export function Section1() {
                     <img src={logoSec1} alt="" />
                 </div>
                 <div className="infoSec1">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis omnis facere non quae est eveniet, cupiditate doloribus voluptate, possimus, iusto iure corrupti maxime fugit! Tempore quis nesciunt tempora est ipsa!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac efficitur urna, vestibulum sagittis enim. Morbi convallis feugiat ex, non feugiat turpis fringilla ac. Integer quis purus interdum, fringilla erat ac, hendrerit libero. Aenean ac magna ut magna ultrices tristique sit amet eget lacus.</p>
+                    <p>Mauris dictum velit sed magna condimentum hendrerit. Morbi egestas diam eget metus ultricies, vitae tincidunt libero fermentum. Aliquam pretium, justo a accumsan sodales, lacus dolor malesuada elit, in dignissim turpis augue condimentum purus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac efficitur urna, vestibulum sagittis enim. Morbi convallis feugiat ex, non feugiat turpis fringilla ac. Integer quis purus interdum, fringilla erat ac, hendrerit libero. Aenean ac magna ut magna ultrices tristique sit amet eget lacus.</p>
                 </div>
             </div>
         </section>

@@ -26,6 +26,10 @@
     .infoSec1 {
         p {
             color: $colorWhite;
+            margin-bottom: 20px;
+            &:nth-child(2) {
+                font-weight: 700;
+            }
         }
     }
 }
