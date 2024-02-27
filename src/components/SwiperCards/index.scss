@@ -1,18 +1,50 @@
+.areaSwiper {
+    margin-bottom: 50px;
+}
+
+.titleSwiper {
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    h2 {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #000000;
+    }
+}
+
 .swiper {
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 200px;
 }
 
 .swiper-slide {
     background-position: center;
     background-size: cover;
     max-width: 500px;
-    max-height: 500px;
+    max-height: 600px;
     width: 100%;
+    border-radius: 20px;
+    background: radial-gradient(circle, rgba(13,164,162,1) 0%, rgba(0,0,0,1) 100%);
+
+    h4 {
+        margin-top: 10px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 1.8rem;
+        text-shadow: 2px 2px #000000;
+    margin-bottom: 10px;
+    }
+
+    p {
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 2px 2px #000000;
+    }
 }
 
-.swiper-slide img {
-    display: block;
-    width: 100%;
+.cardPerson {
+    display: flex;
+    justify-content: center;
 }

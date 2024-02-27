@@ -3,14 +3,12 @@
 .sec2infos {
     text-align: center;
     h1 {
-        background: linear-gradient(to right, #0DA4A2 40%, #0013FD 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        text-shadow: 2px 2px #000000;
         text-transform: uppercase;
         margin-bottom: 30px;
     }
 
-    p {
+    p, h1 {
         color: $colorWhite;
     }
 
@@ -29,8 +27,14 @@
     .box {
         border-radius: 30px;
         padding: 30px 40px;
-        p {
+        p, h4 {
             text-shadow: 2px 2px #000000;
+        }
+
+        h4 {
+            font-size: 1.8rem;
+            color: $colorWhite;
+            margin-bottom: 10px;
         }
     }
 

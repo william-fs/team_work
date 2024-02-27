@@ -7,19 +7,23 @@ export function Sec2infos() {
             <div className="col">
                 <div className="row">
                     <div className="box box1">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac efficitur urna, vestibulum sagittis enim. Morbi convallis feugiat ex, non feugiat turpis fringilla ac. Integer quis purus interdum, fringilla erat ac, hendrerit libero. Aenean ac magna ut magna ultrices tristique sit amet eget lacus.</p>
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac efficitur urna, vestibulum sagittis enim. Morbi convallis feugiat ex, non feugiat turpis fringilla ac.</p>
                     </div>
                     <div className="box box2">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac efficitur urna, vestibulum sagittis enim. Morbi convallis feugiat ex, non feugiat turpis fringilla ac. Integer quis purus interdum, fringilla erat ac, hendrerit libero. Aenean ac magna ut magna ultrices tristique sit amet eget lacus.</p>
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac efficitur urna, vestibulum sagittis enim. Morbi convallis feugiat ex, non feugiat turpis fringilla ac.</p>
                     </div>
                 </div>
 
                 <div className="row">
                     <div className="box box3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac efficitur urna, vestibulum sagittis enim. Morbi convallis feugiat ex, non feugiat turpis fringilla ac. Integer quis purus interdum, fringilla erat ac, hendrerit libero. Aenean ac magna ut magna ultrices tristique sit amet eget lacus.</p>
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac efficitur urna, vestibulum sagittis enim. Morbi convallis feugiat ex, non feugiat turpis fringilla ac.</p>
                     </div>
                     <div className="box box4">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac efficitur urna, vestibulum sagittis enim. Morbi convallis feugiat ex, non feugiat turpis fringilla ac. Integer quis purus interdum, fringilla erat ac, hendrerit libero. Aenean ac magna ut magna ultrices tristique sit amet eget lacus.</p>
+                        <h4>Lorem ipsum</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac efficitur urna, vestibulum sagittis enim. Morbi convallis feugiat ex, non feugiat turpis fringilla ac.</p>
                     </div>
                 </div>
             </div>

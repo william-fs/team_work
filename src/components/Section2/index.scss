@@ -1,5 +1,29 @@
 .section2 {
-    background: rgb(13,164,162);
-    background: linear-gradient(202deg, rgba(13,164,162,1) 0%, rgba(0,0,0,1) 37%, rgba(1,8,7,1) 83%, rgba(13,164,162,1) 100%);
+    background: linear-gradient(329deg, #0da4a2, #000000);
+    background-size: 400% 400%;
+
+    -webkit-animation: bgSec2 4s ease infinite;
+    -moz-animation: bgSec2 4s ease infinite;
+    animation: bgSec2 4s ease infinite;
     padding: 70px 0;
+
+    .sec2infos {
+        margin-bottom: 50px;
+    }
+}
+
+@-webkit-keyframes bgSec2 {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
 }

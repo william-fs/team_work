@@ -18,16 +18,16 @@ export function Navbar() {
             </div>
             <ul className={closeMenu}>
                 <li>
-                    <a href="#">item1</a>
+                    <a href="#">About</a>
                 </li>
                 <li>
-                    <a href="#">item2</a>
+                    <a href="#">Jobs</a>
                 </li>
                 <li>
-                    <a href="#">item3</a>
+                    <a href="#">Professionals</a>
                 </li>
                 <li>
-                    <a href="#">item4</a>
+                    <a href="#">More</a>
                 </li>
             </ul>
         </nav>

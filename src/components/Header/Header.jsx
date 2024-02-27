@@ -9,14 +9,14 @@ export function Header() {
             <Navbar />
             <div className="container headerContent">
                 <div className="infos">
-                    <img src={logo} alt="" />
+                    <img src={logo} alt="TeamWork" />
                     <h2>Lorem ipsum dolor sit amet
                     Vel, molestias quis <span>commodi
                     libero culpa,</span> hi nobis unde</h2>
                     <p>similique officiis incidunt maxime cupiditate rerum itaque corporis ex nam inventore.</p>
                     <div className="btnBanner">
-                        <button className="btn btnMore">More</button>
-                        <button className="btn btnContact">Contact</button>
+                        <button className="btnBN btnContact">Professionals</button>
+                        <button className="btnBN btnMore">More</button>
                     </div>
                 </div>
                 <div className="imageBanner">
