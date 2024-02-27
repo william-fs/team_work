@@ -17,7 +17,7 @@ import cardPerson03 from "../../assets/images/cardPerson03.png";
 export function SwiperCards() {
 
     return (
-        <div className='areaSwiper'>
+        <div id='professionals' className='areaSwiper'>
             <div className="titleSwiper">
                 <h2>Professionals</h2>
             </div>

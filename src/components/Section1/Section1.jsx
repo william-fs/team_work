@@ -3,7 +3,7 @@ import logoSec1 from "../../assets/images/icon_sec1.png";
 
 export function Section1() {
     return (
-        <section className="section1">
+        <section id="about" className="section1">
             <div className="container sec1">
                 <div className="imgSec1">
                     <img src={logoSec1} alt="" />

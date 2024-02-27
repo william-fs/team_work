@@ -3,7 +3,7 @@ import morePerson from "../../assets/images/image_by_kamran-aydinov.png"
 
 export function More() {
     return(
-        <div className="more">
+        <div id='more' className="more">
             <div className="container moreContent">
                 <img className='moreImg' src={morePerson} alt="" />
                 <div className="moreInfo">

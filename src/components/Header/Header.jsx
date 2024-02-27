@@ -15,8 +15,12 @@ export function Header() {
                     libero culpa,</span> hi nobis unde</h2>
                     <p>similique officiis incidunt maxime cupiditate rerum itaque corporis ex nam inventore.</p>
                     <div className="btnBanner">
-                        <button className="btnBN btnContact">Professionals</button>
-                        <button className="btnBN btnMore">More</button>
+                        <a href="#professionals">
+                            <button className="btnBN btnContact">Professionals</button>
+                        </a>
+                        <a href="#more">
+                            <button className="btnBN btnMore">More</button>
+                        </a>
                     </div>
                 </div>
                 <div className="imageBanner">

@@ -2,7 +2,7 @@ import "./index.scss";
 
 export function Sec2infos() {
     return (
-        <div className="container sec2infos">
+        <div id="jobs" className="container sec2infos">
             <h1>Lorem ipsum dolor sit amet</h1>
             <div className="col">
                 <div className="row">
